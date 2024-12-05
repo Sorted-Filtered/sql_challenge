@@ -8,12 +8,12 @@ DROP TABLE IF EXISTS departments;
 
 CREATE TABLE departments (
 	dept_no VARCHAR(250) PRIMARY KEY NOT NULL,
-	dept_name VARCHAR NOT NULL
+	dept_name VARCHAR(250) NOT NULL
 );
 
 CREATE TABLE titles (
 	title_id VARCHAR(250) PRIMARY KEY NOT NULL,
-	title VARCHAR NOT NULL
+	title VARCHAR(250) NOT NULL
 );
 
 CREATE TABLE employees (
