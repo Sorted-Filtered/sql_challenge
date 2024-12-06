@@ -7,18 +7,18 @@ DROP TABLE IF EXISTS departments;
 
 
 CREATE TABLE departments (
-	dept_no VARCHAR(250) PRIMARY KEY NOT NULL,
+	dept_no VARCHAR(20) PRIMARY KEY NOT NULL,
 	dept_name VARCHAR(250) NOT NULL
 );
 
 CREATE TABLE titles (
-	title_id VARCHAR(250) PRIMARY KEY NOT NULL,
+	title_id VARCHAR(20) PRIMARY KEY NOT NULL,
 	title VARCHAR(250) NOT NULL
 );
 
 CREATE TABLE employees (
 	emp_no INT PRIMARY KEY NOT NULL,
-	emp_title_id VARCHAR(250) NOT NULL,
+	emp_title_id VARCHAR(20) NOT NULL,
 	birth_date VARCHAR(20) NOT NULL,
 	first_name VARCHAR(250) NOT NULL,
 	last_name VARCHAR(250) NOT NULL,
